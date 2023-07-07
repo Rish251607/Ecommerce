@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commerse Website</title>
+    <title>All products | E-commerse Website</title>
     <script src="https://kit.fontawesome.com/9153f876cc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,7 +20,7 @@
                 <nav>
                     <ul id="menuitems">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">Products</a></li>
                         <li><a href="">About</a></li>
                         <li><a href="">Contact</a></li>
                         <li><a href="account.html">Account</a></li>
@@ -29,35 +29,20 @@
                 <a href="cart.html"><img src="cart.png" width="30px" height="30px" alt=""></a>
                 <img src="menu.png" class="menuicon" alt="" onclick="menutoggle()">
             </div>
-            <div class="row1 box">
-                <div class="col2">
-                    <h1>Give Your Workout<br>A New Style!</h1>
-                    <p>Sucess isn't always about greatness. It's about consistancy. Consistant <br> hard work gains
-                        success.
-                        Greatness will come.</p> <a href="" class="btn">Explore Now &#8594;</a>
-                </div>
-                <div class="col2">
-                    <img src="family.png" alt="">
-                </div>
-            </div>
         </div>
     </div>
 
-    <!--------------featured categories----------->
-    <div class="categories">
-        <div class="smallcontainer">
-            <div class="row">
-                <div class="col3"><img src="category-1.jpg" alt=""></div>
-                <div class="col3"><img src="category-2.jpg" alt=""></div>
-                <div class="col3"><img src="category-3.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--------------featured products----------->
     <div class="smallcontainer">
-        <h2 class="title">Featured products</h2>
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select name="" id="">
+                <option value=""> Default Sorting</option>
+                <option value=""> Sort By Price</option>
+                <option value=""> Sort By Popularity</option>
+                <option value=""> Sort By Rating</option>
+                <option value=""> Sort By Sale</option>
+            </select>
+        </div>
         <div class="row">
             <div class="col4"><a href="productsdetails.html"><img src="product-1.jpg" alt=""></a>
                 <a href="productsdetails.html"><h4> Puma Red Casual T-Shirt</h4></a>
@@ -104,7 +89,6 @@
                 <p>&#x20B9 2999.00</p>
             </div>
         </div>
-        <h2 class="title">Latest Procuct</h2>
         <div class="row">
             <div class="col4"><img src="product-5.jpg" alt="">
                 <h4> Roadster Grey Boots</h4>
@@ -161,7 +145,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>&#x20B9 2399.00</p> 
+                <p>&#x20B9 2399.00</p>
             </div>
             <div class="col4"><img src="product-10.jpg" alt="">
                 <h4> HRX Running Shoe</h4>
@@ -197,87 +181,13 @@
                 <p>&#x20B9 4599.00</p>
             </div>
         </div>
-    </div>
-    <!---------------offer------------->
-    <div class="offer">
-        <div class="smallcontainer">
-            <div class="row">
-                <div class="col2"> <img src="exclusive.png" class="offer-img" alt=""></div>
-                <div class="col2">
-                    <p>Exclusively Available on BrandStore</p>
-                    <h1>Smart Band 4</h1>
-                    <small>
-                        The MI Smart Band 4 Features As 39.9% Larger (than Mi Band 3) AMOLED color full-touch dislpay
-                        with adjustable brightness,so evrrything is clear as can be.
-                    </small> <a href="" class="btn">Buy Now &#8594;</a>
-                </div>
-            </div>
-        </div>
-    </div>
 
-
-    <!----------Testimonial Comments(Public Review)--------->
-    <div class="testimonial">
-        <div class="smallcontainer">
-            <div class="row">
-                <div class="col3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Great dress, perfect fit, and excellent customer service! Will i'll buy again from this clothing
-                        website! i'll Rate it 5 out of 5</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div>
-                    <img src="user-1.png" alt="">
-                    <h3>Sean Parker</h3>
-                </div>
-                <div class="col3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Great experience! True to size clothes, reasonable prices, wide variety of styles to choose from.
-                        Shipping was slow but worth the wait. Highly recommend this website for trendy and affordable
-                        clothing!</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <img src="user-2.png" alt="">
-                    <h3>Albert Decausta</h3>
-                </div>
-                <div class="col3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Amazing shoes! The quality is ok! bt they fit perfectly. The website had a great variety of
-                        styles to choose from, and the prices were reasonable. Shipping was fast,. I will definitely be
-                        buying from this website again.</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <img src="user-3.png" alt="">
-                    <h3>Jerry Smith </h3>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!----------Brands--------->
-    <div class="brands">
-        <div class="smallcontainer">
-            <div class="row">
-                <div class="col5"><img src="logo-godrej.png" alt=""></div>
-                <div class="col5"><img src="logo-oppo.png" alt=""></div>
-                <div class="col5"><img src="logo-coca-cola.png" alt=""></div>
-                <div class="col5"><img src="logo-paypal.png" alt=""></div>
-                <div class="col5"><img src="logo-philips.png" alt=""></div>
-            </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
         </div>
     </div>
 
